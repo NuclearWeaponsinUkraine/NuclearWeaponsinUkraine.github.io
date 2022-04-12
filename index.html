@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="index.html" class="w3-button w3-bar-item">Дім</a>
+ <!--  <a href="#band" class="w3-button w3-bar-item"/>Band</a>
+ <a href="#tour" class="w3-button w3-bar-item"/>Tour</a> </-->
+  <a href="contact.html" class="w3-button w3-bar-item">Як з нами звязатись ?</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="1.jpg"
+  style="width:100%">
+  <img class="mySlides" src="2.jpg"
+  style="width:100%">
+  <img class="mySlides" src="3.jpg"
+  style="width:100%">
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">Nuclear Weapons in Ukraine</h2>
+  <p class="w3-opacity"><i>We love Ukraine</i></p>
+  <p class="w3-justify">Привіт, в нас немає імені,ідола, ми за свободу. 
+  Свобода поставила задачу відновити ядерну зброю в Україні, а також допомагати фінансово, всім антитерористичним підрозділам проти РФ.</p>
+<!-- wp:list {"textColor":"black"} -->
+<ul class="has-black-color has-text-color"><li>Ми відновлюєм Шахти, Ядерну іфраструктуру, ядерну зброю, нам потрібні: Волонтеріи, військові і охочі люди, які розвинуті в цій сфері, наше задвдання створити, у Сувереній Україні, внутрішню ядерну державу, яка вільна від міждународних домовленостей, ми трудимось непокладаючи рук, допоможи  і ти цим фінансово, або своїми навичками, це складний шлях, але Україна ніколи не зупиниться в протистояні з РФ.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:pullquote {"textColor":"black"} -->
+<figure class="wp-block-pullquote has-black-color has-text-color"><blockquote><p> Наші реквізити:
+</p></blockquote></figure>
+<!-- /wp:pullquote -->
+<!-- wp:pullquote {"textColor":"black"} -->
+<figure class="w3-center"><blockquote><p> bc1qu85jajyhgqcq2z0slxv934f8zv629hx8vh06p8
+</p></blockquote></figure>
+<figure class="w3-center"><blockquote><p> UA833052990000026207896182820
+</p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:preformatted {"textColor":"black"} -->
+<pre class="wp-block-preformatted has-black-color has-text-color">
+  "Хто з мечем прийде до нас, 
+  той від меча і загине"
+<br>Олександр Невськи</pre>
+<!-- /wp:preformatted -->
+</section>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://twitter.com/YourAnonNews?t=W7uyKjNJHRtVFuf7GqHerg&s=09"><i class="fa fa-twitter"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="#" target="_blank">Anonymous</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
